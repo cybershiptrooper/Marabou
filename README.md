@@ -12,11 +12,11 @@ All the files in this folder need to be inside Marabou's root directory to work.
 
     Or import the file and call `check(<path to your image>, <delta>, <l1norm>, <region>)`
 
-3. Robustness on entire image ($L_1$/clipped norms):
+3. Robustness on entire image (L-1/clipped norms):
 
         python testmarabouonl1_v2.py --delta <delta> --l1norm <l1norm>
 
-4. Vanilla $L_\infty$ robustness:
+4. Vanilla L-infinity robustness:
 
         python testmarabou.py --delta <delta>
 
