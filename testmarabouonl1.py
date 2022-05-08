@@ -65,6 +65,6 @@ def check(filename, num_imgs, delta=0.03, b = 1):
     print("verified correctly: {}/{}".format(good,num_imgs))
 
 if __name__=="__main__":
-    filename = "l1model_combined.onnx"
+    filename = "l1model_combined_v2.onnx"
     num_imgs = 1
     check(filename, num_imgs, delta = 0.0, b=0.0)
